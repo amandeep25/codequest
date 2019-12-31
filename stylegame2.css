@@ -1,0 +1,181 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    height: 160vh;
+    background-image: url("Untitled-1.jpg");
+    background-size: cover;
+    background-color: black;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.main-nav li
+{
+    display: inline-block;    
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration :none;
+    padding: 7px 30px;
+    font-family: "roboto", sans-serif;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+
+}
+
+.main-nav li a:hover
+{
+    background-color: orange;
+    border: 2px solid white;
+}
+
+.logo img
+{
+    width: 220px;
+    height : auto;
+    float: left;
+    margin-top: -25px;
+    margin-left: -20px;
+}
+
+#inl
+{
+    width: 110px;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+
+
+body{
+    
+    font-family: monospace;
+}
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2
+{
+ color: white;
+text-align: right;
+font-size: 50px;
+text-transform: uppercase;
+margin-top: 140px; 
+margin-right: 155px;
+}
+
+h1
+{
+ color: white;
+text-align: right;
+font-size: 70px;
+ text-transform: uppercase;
+ margin-top: 0px; 
+margin-right: 95px;
+}
+
+.button
+{  
+  display:flex;
+  justify-content:flex-end;
+  margin-top: 100px;
+  align-items: right;  
+  margin-right: 250px;
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 15px 35px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+.btn1:hover
+{
+    background-color: orange;
+}
+
+.Rules{
+    background-image: url("rules.jpg");
+    background-size: cover;
+    height: 130%;
+    width: 100%;
+
+}
+#rlist{
+ 
+margin-top: 200px;
+color: white;
+margin-left: 80px;
+text-align: center;
+font-size: 60px;
+padding: 45px 5px;
+line-height: 30px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.transbox{
+
+    margin: 20px;
+    margin-top: 0px;
+    opacity: 0.6;
+    background-color: black;
+    filter: alpha(opacity=60);
+}
+
+.list{
+
+margin-top: 20px;
+color: white;
+text-align: left;
+font-size: 20px;
+padding: 15px 15px;
+line-height: 40px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 40px;
+margin-right: 60px;
+}
+
+.button2
+{  
+  margin-left: 500px;  
+  margin-bottom: 100px;
+  
+}
+
+.nbtn{
+    border: 1px solid white;
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+.nbtn:hover
+{
+    background-color: orange;
+}
