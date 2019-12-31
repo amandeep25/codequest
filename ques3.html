@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Ques3 </title>
+        <link href="style2.css" rel="stylesheet" type="text/css">
+    </head>
+   
+    <script language="JavaScript">
+
+        //disable right click
+        
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        
+                //disable inspect shortcuts
+                
+                document.onkeydown = function(e) {
+                if(event.keyCode == 123) {
+                return false;
+                }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+                return false;
+                }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+                return false;
+                }
+                if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+                return false;
+                }
+                }
+                
+                    </script>
+        
+
+<script type="text/javascript">
+
+window.history.forward();
+
+function noBack() { window.history.forward(); }
+
+window.onbeforeload = function() {return" Your work will be lost." ;};
+
+var i=0;
+        function myfunc()
+        {
+             var a=document.myform.q1.value;
+ 
+ if(i<=3)
+{
+       if(a=="55")
+       { alert("You got it right " );
+         window.location.replace("pass3.html   ");
+       }
+       else
+       {i++;
+              if(i==1)
+              { alert("Two more Chances!" );
+              }
+              else if(i==2)
+              { alert("One more chance!" );
+              }
+       }
+}
+else
+{alert("All attempts are used !" );
+ window.location.replace(" attempts.html ");
+}
+   
+         
+        }
+   
+        </script>
+    <body  onload="noBack();" onpageshow="if(event.persisted) noBack():" onunload="" ;
+    background="bgq4.gif">
+        <header>
+          
+<br>
+
+                <div class="headline">
+                    <h1> <u> <br> Question 3 </u></h1>
+                </div>
+               
+
+            <p> The planet Titan has the shape of a tree — there are N servers and N-1 bidirectional channels connecting pairs of servers in such a way that there is exactly one path between each pair of servers.
+                Each Titan  citizen lives on exactly one server at any point in time. Each channel connecting two servers has a value called blip. Each citizen can move to a different server through channels; moving through 
+                a channel with blip 2w takes w nanoseconds. 
+                <br>Initially, there are ci citizens living on the i-th server (for each 1 ≤ i ≤ N).Recently, Thanos has created an Intitial Currency Offering  for Titancoin — the 
+                cryptocurrency of the future in Titan. Everyone in Titan should receive exactly 1 Titancoin. 
+                <br>How to organize this process? Titancoins can only be received on certain servers containing cryptoexchanges. Unfortunately, Thanos can only create cryptoexchanges
+                on two servers, since they consume a lot of electric power. The citizens want to receive Titancoin as fast as possible; therefore, each citizen chooses the closest server with a cryptoexchange and moves to that server. 
+                Receiving Titancoin at a cryptoexchange takes zero time.Thanos wants to minimize the sum of the times each citizen needs to spend moving to receive Titancoin. The two servers containing cryptoexchanges can be chosen 
+                arbitrarily. Compute the minimum total time it takes Titan's citizens to receive Titancoin!
+                <br><br>Input
+                <br>	The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+                <br>	The first line of each test case contains a single integer N.
+                <br>	The second line contains N space-separated integers c1, c2, ..., cN.
+                <br>N-1 lines follow. Each of these lines contains three space-separated integers u, v and w denoting a channel with blip 2w nanoseconds connecting servers u and v.
+                <br><br>Output
+                <br>For each test case, print a single line containing one integer — the minimal sum of times it takes each citizen to receive Titancoin if the two cryptoexchanges are placed optimally.
+                <br><br>Constraints<br>
+                1 ≤ N ≤ 50000<br>
+                	1 ≤ ci ≤ 50000 for each valid i<br>
+                	1 ≤ w ≤ 50000<br>
+                	1 ≤ u, v ≤ N<br>
+                	the channels describe a tree<br>
+                	1 ≤ sum of N over all test cases ≤ 250000<br>
+                If the Input is :<br>
+1<br>
+4<br>
+
+10 25 15 40<br>
+1 2 1<br>
+2 3 3<br>
+1 4 4<br>
+
+
+What is the Output?
+
+                
+            
+                 <form name= "myform" action=" " method="post">
+                    <div>
+        
+                       <label for="Solution"> Solution </label>
+                       <input type="text" autocomplete="off" name="q1"> 
+                    </div>
+                    <div>      
+                       <input type="button" class="submit" value="Submit" onclick="myfunc ()">
+                       
+                       </div>
+        
+                    </form>
+            
+           </p>
+    </header>    
+        
+    </body>
+</html>

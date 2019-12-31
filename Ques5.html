@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Ques 5 </title>
+        <link href="style2.css" rel="stylesheet" type="text/css">
+    </head>
+    <script language="JavaScript">
+
+        //disable right click
+        
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        
+                //disable inspect shortcuts
+                
+                document.onkeydown = function(e) {
+                if(event.keyCode == 123) {
+                return false;
+                }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+                return false;
+                }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+                return false;
+                }
+                if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+                return false;
+                }
+                }
+                
+                    </script>
+        
+
+    <script type="text/javascript">
+
+        window.history.forward();
+        
+        function noBack() { window.history.forward(); }
+        
+        
+        
+        var i=0;
+                function myfunc()
+                {
+                     var a=document.myform.q1.value;
+ 
+ if(i<=3)
+{
+       if(a=="10")
+       { alert("You got it right " );
+         window.location.replace("pass5.html");
+       }
+       else
+       {i++;
+              if(i==1)
+              { alert("Two more Chances!" );
+              }
+              else if(i==2)
+              { alert("One more chance!" );
+              }
+       }
+}
+else
+{alert("All attempts are used !" );
+ window.location.replace(" attempts.html ");
+}
+   
+                }
+                
+          
+            
+                </script>
+
+        <body onload="noBack();" onpageshow="if(event.persisted) noBack():" onunload="" ;
+background="codinggif.gif">
+        <header>
+                <div class="headline">
+                    <h1> <u><br> Question 5 </u></h1>
+                </div>
+             
+            <p> Avenger’s spacecraft is being attacked by Thanos droids. Again, Thanos droids intend to disable rather than destroy their targets. They achieve this by introducing bugs in the program of the underlying software.
+<br>One important module of every navigation controller is this code :
+<br>n <- number of vertices in the graph
+<br>adj[n][n] <- adjacency matrix(0/1) of a simple undirected graph
+<br>connected[n][n] <- 2D matrix of size n * n
+<br>for (i=1; i<=n; i++)
+ <br>       for (j=1; j<=n; j++)
+  <br>         connected[i][j] = adj[i][j]
+<br>for (p=1; p<=n; p++)    // runs only up to n-k after reprogramming
+ <br>    for (i=1; i<=n; i++)
+  <br>        for (j=1; j<=n; j++)
+     <br>         connected[i][j] = (connected[i][j]) || (i!=j && connected[i][p] && connected[p][j])
+<br>return connected
+<br>Due to reprogramming by Thanos droids, now the outer loop on p runs only from 1 to n-k (both inclusive).
+<br>Your task is to find the number of simple undirected unweighted graphs for which the reprogrammed code still returns the correct answer. Two graphs are considered different if their adjacency matrices are not identical.
+<br>Input
+<br>The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+<br>Each test case consists of single line containing two integers, n and k.
+<br>Output
+<br>For each test case, output a single line containing the number of graphs (modulo 10^9+7) for which the buggy code returns correct answer.
+<br>Constraints
+<br>•	1 ≤ T ≤ 17000
+<br>•	1 ≤ n ≤ 180
+<br>•	0 ≤ k ≤ n
+
+<br>If Input is:
+<br>3
+<br>1 1
+<br>2 2
+<br>3 1
+                <br>What is the Sum of the outputs?
+
+
+           
+
+                
+                 <form name= "myform" action=" " method="post">
+                    <div>
+        
+                       <label for="Solution"> Solution </label>
+                       <input type="text" autocomplete="off" name="q1"> 
+                    </div>
+                    <div>     
+                       <input type="button" class="submit" value="Submit" onclick="myfunc ()">
+                       
+                       </div>
+        
+                    </form>
+            
+           </p>  
+
+    </header>    
+        
+    </body>
+</html>

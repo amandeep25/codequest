@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> code quest 2</title>
+        <link href="end.css" rel="stylesheet" type="text/css">
+  
+    </head>
+    
+   <body onload="noBack();" onpageshow="if(event.persisted) noBack():" onunload=""; background="images.jpg">
+                  
+                   <br>
+                   <h1>Thanks you for playing Code Quest <br><br>
+                     You have exhausted all your attempts!</h1><br><br>
+
+                     <h4>"Heroes are made by the path they choose, not the powers they are graced with"<br></h4><br>
+
+            </header>
+
+
+
+<script type="text/javascript">
+
+window.history.forward();
+
+function noBack() { window.history.forward(); }
+
+window.onbeforeload = function() {return" Your work will be lost." ;};
+
+       </script>
+
+
+    </body>
+
+</html>

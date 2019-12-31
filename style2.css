@@ -1,0 +1,203 @@
+{
+    margin:0;
+    padding:0;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.main-nav li
+{
+    display: inline-block;    
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration :none;
+    padding: 10px 27px;
+    font-family: "roboto", sans-serif;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    background-color: orange;
+}
+
+.logo img{
+    width: 210px;
+    height : auto;
+    float: left;
+    margin-top: -42px;
+    margin-left: -18px;
+}
+
+#inl
+{
+    width: 110px;
+    margin-top: -12px;
+    margin-left: 3px;
+}
+
+.transbox{
+
+    margin: 20px;
+    margin-top: 0px;
+    opacity: 0.6;
+    background-color: black;
+    filter: alpha(opacity=60);
+}
+
+body{
+
+    margin-top: 50px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: monospace;
+}
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1
+{
+ font-weight: bold;
+ color: beige;
+ text-align: center;
+ font-size: 40px;
+ font-family: cursive;
+ text-transform: capitalize;
+ margin-top: -10px; 
+ margin-right: 170px;  
+}
+
+.grid
+{
+    
+   background-color: grey;
+   background: rgba(0,0, 0, 0.6);
+   opacity: 60%;
+   border: 1px solid black;
+   width: 800px;
+   height: 23px;
+   text-align: center;
+   padding: 20px 20px;
+}
+
+p
+{
+color: white;
+text-align: left;
+font-size: 18px;
+padding: 15px 15px;
+line-height: 42px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 50px;
+margin-right: 60px;
+background: rgba(0,0, 0, 0.6);
+}
+
+
+img{
+    float: right;
+    margin-top: 0px;
+    max-width: 400px;
+}
+
+form{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 30px;
+    display: block;
+    float: center;
+    margin-left: 20px;
+    color: white;
+    font-size: 27px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+form input[type=text]
+{
+
+   width: 25%;
+   padding: 3px 10px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: 1px solid white;
+   border-radius: 4px;
+   background-color: rgba(255,255, 255, 0.8);
+   font-size: 21px;
+   
+}
+
+form input[type=text]:focus
+{
+    background-color: beige;
+    background: rgba(255,255, 255, 0.7)
+}
+
+.submit
+{
+    font-size: 15px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin-left: 0px;
+    font-family: "roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.submit:hover
+{
+    background-color: orange;
+
+}
+
+.button
+{
+  margin-top: 30px;
+  margin-left: 600px;  
+  position: relative;
+  top:10%;
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 12px 34px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+.btn1:hover
+{
+    background-color: orange;
+}
+
+
+
+

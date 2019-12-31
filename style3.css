@@ -1,0 +1,178 @@
+  
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration :none;
+    padding: 8px 25px;
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    background-color: orange;
+}
+
+.logo img{
+    width: 220px;
+    height : auto;
+    float: left;
+    margin-top: -40px;
+    margin-left: -20px;
+}
+
+#inl
+{
+    width: 110px;
+    margin-top: -12px;
+    margin-left: 3px;
+}
+
+.transbox{
+
+    margin-left: 150px;
+    margin-top: 0px;
+    opacity: 0.6;
+    background-color: black;
+    filter: alpha(opacity=60);
+   opacity: 60%;
+   border: 1px solid black;
+   width: 25px;
+   height: 600px;
+   text-align: center;
+   padding: 20px 20px;
+}
+
+body{
+    margin-top: 10px;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:130vh;
+    background-size: cover;
+    font-family: monospace;
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2
+{
+margin-top: 70px;
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 0px;
+margin-bottom: 5px;
+color: gold;
+text-align: center;
+font-size: 50px;
+text-transform: uppercase;
+}
+p 
+
+{
+color: white;
+text-align: center;
+font-size: 22px;
+padding: 10px 10px;
+line-height: 37px;
+position: relative;
+top:3px;
+background: rgba(0, 0, 0, 0.6);
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 20px;
+display: block;
+}
+
+
+form{
+
+    text-align: center;
+    padding: 10px 10px;
+    line-height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    float: center;
+    margin-right: 40px;
+    color: white;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+form input[type=text]
+{
+
+   width: 25%;
+   padding: 3px 10px;
+   margin: 8px;
+   box-sizing: border-box;
+   border: 1px solid white;
+   border-radius: 4px;
+   font-size: 20px;
+   background-color: rgba(255, 255, 255, 0.8);
+}
+
+form input[type=text]:focus
+{
+    background-color: beige;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.submit
+{
+    font-size: 15px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin-left: 60px;
+    font-family: "roboto", sans-serif;
+    text-transform: uppercase;
+}
+.submit:hover
+{
+    background-color: orange;
+}
+.button
+{
+  margin-top: 0px;
+  margin-left: 600px;  
+  position: relative;
+  top:72%;
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+.btn1:hover
+{
+    background-color: orange;
+}

@@ -1,0 +1,106 @@
+{
+    margin:0;
+    padding:0;
+}
+
+header{
+    
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color: #cccccc;
+    background-image: url("newend.jpg");
+    height:130vh;
+    background-size: cover;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.main-nav li{
+    display: inline-block;
+    
+}
+
+.main-nav li a
+{
+    color: black;
+    text-decoration :none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 17px;
+}
+
+.main-nav li.active a
+{
+    border: 2px solid black;
+
+}
+
+.main-nav li a:hover
+{
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.logo img{
+    width: 200px;
+    height : auto;
+    float: left;
+    margin-top: -38px;
+    margin-left: -40px;
+}
+
+
+body{
+    margin-top: 10px;
+    height: 100vh;
+    color: white;
+    font-family: monospace;
+    background: rgba(0,0,0,0.5);
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.here{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+h1
+{
+ color: white;
+ text-align: center;
+ font-size: 50px;
+ text-transform: uppercase;
+ margin-top: 200px; 
+ margin-left: 80px;  
+ background: rgba(0,0,0,0.5);
+}
+
+.button
+{  
+  margin-top: 30px;
+  margin-left: 600px;  
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+.btn1:hover
+{
+    background-color: orange;
+}
